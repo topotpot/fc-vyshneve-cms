@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_settings",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "Site Settings",
+    "description": "Global, editable website settings (singleton)."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "clubName": {
+      "type": "string",
+      "default": "ФК Вишневе"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "heroText": {
+      "type": "text"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images", "videos"]
+    },
+    "sponsors": {
+      "type": "component",
+      "component": "shared.sponsor",
+      "repeatable": true
+    },
+    "contacts": {
+      "type": "component",
+      "component": "shared.contact-info",
+      "repeatable": false
+    },
+    "socialLinks": {
+      "type": "component",
+      "component": "shared.social-links",
+      "repeatable": false
+    },
+    "footerText": {
+      "type": "text"
+    }
+  }
+}

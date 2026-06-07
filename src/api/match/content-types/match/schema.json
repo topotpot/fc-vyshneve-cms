@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "matches",
+  "info": {
+    "singularName": "match",
+    "pluralName": "matches",
+    "displayName": "Match",
+    "description": "Fixtures and results connected to teams."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "homeTeam": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::team.team"
+    },
+    "awayTeam": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::team.team"
+    },
+    "homeScore": {
+      "type": "integer",
+      "min": 0
+    },
+    "awayScore": {
+      "type": "integer",
+      "min": 0
+    },
+    "matchDate": {
+      "type": "datetime",
+      "required": true
+    },
+    "stadium": {
+      "type": "string"
+    },
+    "competition": {
+      "type": "string"
+    },
+    "matchStatus": {
+      "type": "enumeration",
+      "enum": ["upcoming", "live", "finished", "postponed"],
+      "default": "upcoming",
+      "required": true
+    },
+    "matchType": {
+      "type": "enumeration",
+      "enum": ["home", "away", "neutral"],
+      "default": "home"
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": ["images", "videos"]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

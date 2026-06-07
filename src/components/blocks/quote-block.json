@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_quote_blocks",
+  "info": {
+    "displayName": "Quote Block",
+    "icon": "quote",
+    "description": "Pull quote with attribution."
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text",
+      "required": true
+    },
+    "attribution": {
+      "type": "string"
+    }
+  }
+}

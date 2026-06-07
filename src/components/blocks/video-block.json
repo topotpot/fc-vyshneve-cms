@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_video_blocks",
+  "info": {
+    "displayName": "Video Block",
+    "icon": "play",
+    "description": "Embedded or hosted video with optional poster."
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "poster": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "caption": {
+      "type": "string"
+    }
+  }
+}

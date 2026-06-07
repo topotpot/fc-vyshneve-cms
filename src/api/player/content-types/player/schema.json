@@ -1,0 +1,95 @@
+{
+  "kind": "collectionType",
+  "collectionName": "players",
+  "info": {
+    "singularName": "player",
+    "pluralName": "players",
+    "displayName": "Player",
+    "description": "Squad players linked to a team."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullName": {
+      "type": "string",
+      "required": true,
+      "maxLength": 120
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "fullName",
+      "required": true
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "number": {
+      "type": "integer",
+      "min": 0,
+      "max": 99
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": ["Воротар", "Захисник", "Півзахисник", "Нападник"],
+      "required": true
+    },
+    "age": {
+      "type": "integer",
+      "min": 14,
+      "max": 60
+    },
+    "nationality": {
+      "type": "string",
+      "default": "Україна"
+    },
+    "height": {
+      "type": "integer",
+      "min": 120,
+      "max": 230
+    },
+    "weight": {
+      "type": "integer",
+      "min": 40,
+      "max": 150
+    },
+    "preferredFoot": {
+      "type": "enumeration",
+      "enum": ["Права", "Ліва", "Обидві"]
+    },
+    "shortBio": {
+      "type": "text",
+      "maxLength": 320
+    },
+    "fullBio": {
+      "type": "richtext"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "captain": {
+      "type": "boolean",
+      "default": false
+    },
+    "socialLinks": {
+      "type": "component",
+      "component": "shared.social-links",
+      "repeatable": false
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": ["images"]
+    },
+    "team": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::team.team",
+      "inversedBy": "players"
+    }
+  }
+}

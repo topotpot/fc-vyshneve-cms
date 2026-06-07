@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teams",
+  "info": {
+    "singularName": "team",
+    "pluralName": "teams",
+    "displayName": "Team",
+    "description": "Club teams (first team, youth, U-19, etc.)."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 120
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "shortDescription": {
+      "type": "text",
+      "maxLength": 320
+    },
+    "fullDescription": {
+      "type": "richtext"
+    },
+    "foundedYear": {
+      "type": "integer",
+      "min": 1850,
+      "max": 2100
+    },
+    "stadium": {
+      "type": "string"
+    },
+    "primaryColor": {
+      "type": "string",
+      "default": "#a71f45"
+    },
+    "secondaryColor": {
+      "type": "string",
+      "default": "#070709"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "players": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::player.player",
+      "mappedBy": "team"
+    }
+  }
+}

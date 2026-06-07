@@ -1,0 +1,203 @@
+{
+  "seededAt": "2026-06-04T12:57:55.434Z",
+  "teams": [
+    {
+      "documentId": "g2sz15cycrl970mf1p425oa5",
+      "slug": "main"
+    },
+    {
+      "documentId": "ft7coqtc4ema3f4p1q05bdv3",
+      "slug": "youth"
+    },
+    {
+      "documentId": "n2d3fb8nr7ttpslatr5b712u",
+      "slug": "u-19"
+    }
+  ],
+  "players": [
+    {
+      "documentId": "lcdgtlwqe9niwjwzx2gx7pom",
+      "slug": "rostyslav-bahlai"
+    },
+    {
+      "documentId": "igh1862rsnc0gtol4tmboa42",
+      "slug": "vladyslav-kravets"
+    },
+    {
+      "documentId": "ekf96vz7g71n7plt51snnmb2",
+      "slug": "andrii-lysenko"
+    },
+    {
+      "documentId": "jetbo6ujpvc60eioaotskz0h",
+      "slug": "denys-moroz"
+    },
+    {
+      "documentId": "ti1ssrpr2ak8msaf2nsr14l3",
+      "slug": "artem-kovalenko"
+    },
+    {
+      "documentId": "xg4a3nfi8nxig1wy8afllsdd",
+      "slug": "oleh-pavlenko"
+    },
+    {
+      "documentId": "t22ejw96q9ytlr2wtsk8q8mq",
+      "slug": "maksym-stepanenko"
+    },
+    {
+      "documentId": "h5oxk4q5hot71qgpmjvpnac4",
+      "slug": "ivan-shevchenko"
+    },
+    {
+      "documentId": "aawiksj49htdgq8fycsem7mu",
+      "slug": "nazar-boiko"
+    },
+    {
+      "documentId": "bww8hxiox7fd76zjwdeq5zpz",
+      "slug": "oleksandr-hnatiuk"
+    },
+    {
+      "documentId": "udv0n3vy3l26mv2smx32x5m5",
+      "slug": "mykhailo-ivanenko"
+    },
+    {
+      "documentId": "ob4mobf699aoe1gyewyyoe7l",
+      "slug": "taras-semeniuk"
+    },
+    {
+      "documentId": "y4lcxxsqqc3psty6dv4oux5f",
+      "slug": "dmytro-kravchuk"
+    },
+    {
+      "documentId": "us8wwibv4bjng3436407u0ni",
+      "slug": "serhii-tarasiuk"
+    },
+    {
+      "documentId": "scv503druwpwqqoswvod93fj",
+      "slug": "bohdan-bondar"
+    },
+    {
+      "documentId": "mdk09gtw4aw8tuqqwdhmfczf",
+      "slug": "yurii-tkachenko"
+    },
+    {
+      "documentId": "g4x3qdz83nil5boupjaom9sp",
+      "slug": "mykyta-khomenko"
+    },
+    {
+      "documentId": "i8dhtuxesxszxhatqj6fuy70",
+      "slug": "yevhen-biletskyi"
+    },
+    {
+      "documentId": "tnqsmjd9snt64xi32y0xx4fv",
+      "slug": "andrii-oliynyk"
+    },
+    {
+      "documentId": "cpofjf6y2rc7cgak58y2d3lk",
+      "slug": "volodymyr-kulyk"
+    },
+    {
+      "documentId": "fvk3fhlh3u7fwzahkv2zwu7y",
+      "slug": "yaroslav-doroshenko"
+    },
+    {
+      "documentId": "jiu3swvi162f8r7ak3l9zjx8",
+      "slug": "denys-romaniuk"
+    },
+    {
+      "documentId": "odciyc8mgxy217i77ljhk9et",
+      "slug": "nazarii-shevchuk"
+    },
+    {
+      "documentId": "t8jybipu4u8kygxibubl5d8o",
+      "slug": "oleksii-honcharuk"
+    }
+  ],
+  "matches": [
+    {
+      "documentId": "jbn7e6632ljvnws5f1ovg0fl"
+    },
+    {
+      "documentId": "nt9i8qwo3kiz61ck935paa26"
+    },
+    {
+      "documentId": "goyg9ygkkoyz5c05ymyt3i4o"
+    },
+    {
+      "documentId": "os60d0nbz46ttu6vs9sh7e7g"
+    },
+    {
+      "documentId": "mfv2anc6mw7xmnt4kz9vkh95"
+    },
+    {
+      "documentId": "jc7ylu4vwnd2qkxilbpzqitb"
+    },
+    {
+      "documentId": "cxsihzh1qavuhfukm7bgf9sb"
+    },
+    {
+      "documentId": "psxx79c0so7w0eqpbgxt5hp9"
+    },
+    {
+      "documentId": "crlkc708nmwtdfnjqh0yi0pd"
+    },
+    {
+      "documentId": "yi2axhvkucrx9ogrx66uk3c8"
+    },
+    {
+      "documentId": "t2s3m7lhg6tv4fkytgw6wxhz"
+    },
+    {
+      "documentId": "a3p9czh1vuhhxoowz4w5wlgg"
+    },
+    {
+      "documentId": "kaqsmfphy0u7puu8qs1jx4vs"
+    },
+    {
+      "documentId": "dqp409b01hys4yb91ngh469m"
+    }
+  ],
+  "newsArticles": [
+    {
+      "documentId": "loqz03r0xhj755d7u65ka1qf",
+      "slug": "kubkovyi-triumf-3-1"
+    },
+    {
+      "documentId": "rvjs5wffg25e3588scne1yrc",
+      "slug": "kontrakt-z-molodym-napadnykom"
+    },
+    {
+      "documentId": "ygyne3wcxf79ebid0bj1ddrq",
+      "slug": "drama-z-yuniorami-u21"
+    },
+    {
+      "documentId": "mhqqhkwtw4ri92a3dmwaafrv",
+      "slug": "prezentatsiia-novoi-formy"
+    },
+    {
+      "documentId": "n2yi4alsq30o21aqza98yj6a",
+      "slug": "vidkryto-nove-krylo-akademii"
+    },
+    {
+      "documentId": "v9mrzc8zxoddozp0d45hsxtw",
+      "slug": "kapitan-pro-pidhotovku"
+    },
+    {
+      "documentId": "ms0lfmfxoju5b87fm82vjsxu",
+      "slug": "molod-popovnyly-talantamy"
+    },
+    {
+      "documentId": "cyxc570tesy5gw6ax7gxavog",
+      "slug": "superkubok-2-0"
+    },
+    {
+      "documentId": "ua1q887ublw6b27xxxezwyzm",
+      "slug": "vk-vyshneve-28-rokiv"
+    },
+    {
+      "documentId": "cm7zuhnrrbzlng58xh4i17iu",
+      "slug": "zbir-komandy-rozpochato"
+    }
+  ],
+  "siteSettingsBackup": null,
+  "siteSettingsCreated": true
+}

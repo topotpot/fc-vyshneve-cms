@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_sponsors",
+  "info": {
+    "displayName": "Sponsor",
+    "icon": "handshake",
+    "description": "Club sponsor with logo and link."
+  },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "logo": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "url": { "type": "string" }
+  }
+}

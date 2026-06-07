@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_articles",
+  "info": {
+    "singularName": "news-article",
+    "pluralName": "news-articles",
+    "displayName": "News",
+    "description": "Club news articles and editorial football stories."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 180
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "excerpt": {
+      "type": "text",
+      "maxLength": 320
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.text-block",
+        "blocks.image-block",
+        "blocks.quote-block",
+        "blocks.gallery-block",
+        "blocks.video-block",
+        "blocks.stats-block"
+      ]
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": ["images", "videos"]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": ["Матчі", "Клуб", "Трансфери", "Інтерв'ю", "Академія"],
+      "default": "Клуб",
+      "required": true
+    },
+    "tags": {
+      "type": "json"
+    },
+    "author": {
+      "type": "string",
+      "default": "Прес-служба клубу"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "seoTitle": {
+      "type": "string",
+      "maxLength": 70
+    },
+    "seoDescription": {
+      "type": "text",
+      "maxLength": 160
+    }
+  }
+}

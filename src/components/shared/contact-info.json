@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_contact_infos",
+  "info": {
+    "displayName": "Contact Info",
+    "icon": "phone",
+    "description": "Club contact details."
+  },
+  "options": {},
+  "attributes": {
+    "address": { "type": "string" },
+    "phone": { "type": "string" },
+    "email": { "type": "email" }
+  }
+}

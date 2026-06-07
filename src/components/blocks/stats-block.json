@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_stats_blocks",
+  "info": {
+    "displayName": "Statistics Block",
+    "icon": "chartBar",
+    "description": "Match or season statistics. items: [{ label, value }]."
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

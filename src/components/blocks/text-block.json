@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_text_blocks",
+  "info": {
+    "displayName": "Text Block",
+    "icon": "align-left",
+    "description": "Rich text paragraph for editorial story body."
+  },
+  "options": {},
+  "attributes": {
+    "body": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
